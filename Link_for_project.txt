@@ -1,0 +1,22 @@
+| Thing | URL |
+|------|-----|
+| Your source code | 
+[https://github.com/mohandassm/diyafabricationsweb]
+(https://github.com/mohandassm/diyafabricationsweb) |
+| Your website (after deploy) | 
+[https://mohandassm.github.io/diyafabricationsweb/]
+(https://mohandassm.github.io/diyafabricationsweb/) |
+
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+ng add angular-cli-ghpages
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Restricted
+
+ng build --configuration production --base-href "/diyafabricationsweb/"
+
+npx angular-cli-ghpages --dir=dist/diyafabricationsweb
+
+https://mohandassm.github.io/diyafabricationsweb/
+

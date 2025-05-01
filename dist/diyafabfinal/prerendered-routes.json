@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/diyafabfinal": {},
+    "/diyafabfinal/aboutus": {},
+    "/diyafabfinal/contact": {},
+    "/diyafabfinal/home": {},
+    "/diyafabfinal/projects": {}
+  }
+}
