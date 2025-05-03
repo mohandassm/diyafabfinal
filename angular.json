@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/diyafabfinal",
+            "outputPath": "dist/diya_fab",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -45,12 +45,12 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "50MB",
+                  "maximumWarning": "500MB",
                   "maximumError": "5MB"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "50MB",
+                  "maximumWarning": "500MB",
                   "maximumError": "5MB"
                 }
               ],
@@ -103,9 +103,6 @@
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
